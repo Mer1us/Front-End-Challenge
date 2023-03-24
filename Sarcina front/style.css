@@ -1,0 +1,141 @@
+body{
+  background-color: gray;
+}
+
+.keyboard {
+  display: block;
+    font-family: sans-serif;
+    margin-top: 10%;
+    padding-left: 150px;
+    background-color:  gray !important;
+}
+
+.keyboard__row {
+    display: inline-block;
+    height: 3em;
+    margin: 0.2em;
+    background-color: gray !important;
+}
+
+.keyboard__row--h1 {
+    height: 1.7em;
+    line-height: 1.4em;
+}
+
+.keyboard__row--h3 {
+    height: 3.3em;
+}
+
+.keyboard__row > * {
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    color: #a4a0a0;
+    float: left;
+    border-radius: 0.2em;
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 3.3em;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid #f9f9f9;
+}
+
+.keyboard__row--h1 div {
+    width: 3.5em;
+}
+
+
+.command {
+    width: 4.6em;
+}
+
+.del-tab {
+    width: 6em;
+}
+
+.caps-return {
+    width: 6.5em;
+}
+
+.shift {
+    width: 8.3em;
+}
+
+.spacebar {
+    width: 18em;
+}
+
+.taste-duble  * {
+    padding-top: 0.1em;
+}
+
+.litere {
+    line-height: 2.8em;
+}
+
+.taste-stanga * {
+    position: absolute;
+    bottom: 0.4em;
+    left: 0.4em;
+}
+
+.cuvinte-dreapta * {
+    position: absolute;
+    bottom: 0.4em;
+    right: 0.4em;
+}
+
+.fn * {
+  position: absolute;
+  left: 1.4em;
+  font-size: 0.8em;
+  padding-right: 0.2em;
+}
+
+.tastatura-cuvant  *{
+    font-size: 0.8em;
+}
+
+.sageti-inaltime *,
+.sageti * {
+    font-size: 0.5em;
+    line-height: 3em;
+}
+
+.sageti {
+    height: 1.8em;
+    margin-top: 1.7em;
+    line-height: 0.5em;
+}
+
+.sageti-inaltime  * {
+    padding-top: 0.2em;
+}
+
+.taste-dreapta * {
+  position: absolute;
+  left: 0.1em;
+  top: 0.8em;
+}
+
+.taste-dreapta-una * {
+  position: absolute;
+  left: 0.8em;
+  top: 1.2em;
+}
+
+.right-part{
+  display: block;
+  left: 100px;
+}
+
+.right-part-numlock{
+  display: block;
+  left: 160px;
+}
+
+.fn-button{
+    background-color: rgb(90, 87, 87);
+}
